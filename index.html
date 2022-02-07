@@ -1,0 +1,33 @@
+<!DOCTYPE html><!--htmk:5 adiciona um código básico-->
+<html lang="en"><!--indica que este código é HTML5 -->
+<head>
+    <meta charset="UTF-8"><!--estabelece o modo como computadores interpretam os caracteres-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple web site</title>
+    <link rel="stylesheet" href="main.css"><!--vincular folha de estilo externa-->
+</head>
+<body class="light-theme">
+    <h1>Lista de tarefas</h1><!--adicionar cabeçalho-->
+    <p id="msg">Tarefeas atuais:</p><!--adicionar parágrafo-->
+    <div>
+      <input type="checkbox" id="estilosVisuais" name="estilosVisuais"> <!--adicionar caixas quadradas que sao marcadas quando ativadas -->
+      <label for="estilosVisuais">Adicionar estilos visuais;</label>
+    </div>
+    <div>
+      <input type="checkbox" id="temas" name="temas"> <!--adicionar caixas quadradas que sao marcadas quando ativadas -->
+      <label for="temas">Adicionar temas claros e escuros;</label>
+    </div>
+    <div>
+      <input type="checkbox" id="alternanciaTemas" name="alternanciaTemas"> <!--adicionar caixas quadradas que sao marcadas quando ativadas -->
+      <label for="alternanciaTemas">Habilitar a alternância de temas;</label>
+    </div>
+  </ul>
+    <div>
+      <button class="btn">Dark</button> <!--adicionando o elemento botão-->
+    </div>
+    <script src="app.js"></script><!--vincular arquivo javascript externo, deixando o código no final da página ele será carregado por último-->
+    <noscript>You need to enable JavaScript to view the full site.</noscript><!--exibe mensagem de erro caso o javascript esteja desativado-->
+
+</body>
+</html>
